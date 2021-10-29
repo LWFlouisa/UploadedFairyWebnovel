@@ -7,11 +7,13 @@
     {%- include       style.html -%}
   </head>
   <body dir="" class="kramdown">
+    <div id="leanpub-toc">
+      {%- include chapter_list.html -%}
+      {%- include         logo.html -%}
+      {%- include   book_title.html -%}
+    </div>
     <div id="leanpub-main" class="kramdown">
-    {%- include chapter_list.html -%}
-    {%- include         logo.html -%}
-    {%- include   book_title.html -%}
-    {%- include   novel_body.html -%}
+      {%- include   novel_body.html -%}
     <div>
   </body>
 </html>
